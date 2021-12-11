@@ -1,0 +1,190 @@
+#container{
+    display: grid;
+    grid-template-columns: 2fr repeat(6, 1.5fr);
+    grid-template-rows: repeat(7, 100px);
+    grid-gap: 1rem;
+    background-color: rgba(0, 0, 0);
+}
+
+.content{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 255, 213) ;
+    border-radius: 10px;
+}
+
+img{
+    opacity: 0.7;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+.content1{                                  /* Choose Your Serie */
+    grid-area: 2/1/8/2;
+
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(92, 92, 92, 0.3);
+}
+
+.content2{
+    border:1px solid white;              /* Navigation Bar */ 
+    grid-area: 1/2/2/8;
+    background-color: rgba(128, 128, 128,0.3);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.content2 ul{   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none; 
+}
+
+li{
+    /* border: 2px solid orange; */
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px orange;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.content3{                              /* Yaman TV */
+    border: 1px solid red;
+    grid-area: 1/1/2/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow:5px 5px 5px red;
+}
+
+.content4{                              /* Breaking Bad Picture */
+    grid-area: 2/2/4/4;
+    border: 1px solid red;           
+}
+
+.content5{                              /* Breaking Bad Text */
+    grid-area: 3/3/4/4;
+}
+
+.content6{                              /* Dexter Picture */
+    grid-area: 2/4/4/6;
+    border: 1px solid yellow;
+}
+
+.content7{                              /* Dexter Text */
+    grid-area: 3/5/4/6;
+}
+
+.content8{                              /* Game of Thrones Picture */
+    grid-area: 2/6/4/8;
+    border: 1px solid blue;
+}
+
+.content9{                              /* Game of Thrones Text */
+    grid-area: 3/7/4/8;
+}
+
+.content10{                             /* Lost Picture */
+    grid-area: 4/2/6/4;
+    border: 1px solid orange;
+}
+
+.content11{                             /* Lost Text */
+    grid-area: 5/3/6/4;
+}
+
+.content12{                             /* Person of Interest Picture */
+    grid-area: 4/4/6/6;
+    border: 1px solid green;
+}
+
+.content13{
+    grid-area: 5/5/6/6;                 /* Person of Interest Text */
+}
+
+.content14{                             /* Prison Break Picture */
+    grid-area: 4/6/6/8;
+    border: 1px solid red;
+}
+
+.content15{                             /* Prison Break Text */
+    grid-area: 5/7/6/8;
+}
+
+.content16{                             /* Sherlock Picture */
+    grid-area: 6/2/8/4;
+    border: 1px solid white;
+}
+
+.content17{                             /* Sherlock Text */
+    grid-area: 7/3/8/4;
+}
+
+
+.content18{                             /* Spartacus Picture */
+    grid-area: 6/4/8/6;
+    border: 1px solid blue;
+}
+
+.content19{
+    grid-area: 7/5/8/6;                 /* Spartacus Text */
+}
+
+.content20{                             /* Supernatural Picture */
+    grid-area: 6/6/8/8;
+    border: 3px solid blue;
+}
+
+.content21{
+    grid-area: 7/7/8/8;                 /* Supernatural Text  */
+}
+
+.text{
+    background-color: rgba(46, 49, 46, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color:yellow;
+    border: none;
+}
+
+form .title{
+    position: relative;
+    bottom: 10em;
+    color: orange;
+    font-size: larger;
+    text-shadow: 5px 5px 5px rgb(196, 132, 132);
+}
+
+/* option{
+    text-align: center;
+} */
+
+#type{
+    margin-top: 1rem;
+    box-shadow:2px 2px 10px orange;
+    width: 100%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:orange;
+}
+
+
+
